@@ -134,7 +134,7 @@ for screen in camera.capture_continuous(rawCapture, format="bgr",use_video_port=
     threshold2 = 0.6
    
     if channel_digit>0 or changing_digit==1:
-        chnaging_digit=0
+        changing_digit=0
         audio.stop()
        
     now= time.time()    
